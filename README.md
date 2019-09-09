@@ -6,6 +6,8 @@ This project contains the entire frontend of the **[codefolio-tindev-frontend](h
 
 This project was create with [Create React App](https://facebook.github.io/create-react-app/). You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started). To learn React, check out the [React documentation](https://reactjs.org/).
 
+To know the **backend** of this application, visit [codefolio-tindev-backend](https://github.com/coderamos/codefolio-tindev-backend).
+
 ## Avaliable Scripts
 
 ### Run Project
@@ -34,25 +36,9 @@ The page will reload if you make edits. You will also see any lint errors in the
 
 > To make queries on external API's.
 
-#### Cors
+#### React Router Dom
 
-> To allow the backend application to be accessed from any address (in this case, to be accessed by the frontend).
-
-#### Express
-
-> To better handle application routes.
-
-#### MongoDB
-
-> To write application data.
-
-#### Mongoose
-
-> To facilitate communication with the database using javascript syntax
-
-#### Nodemon
-
-> To run my application more conveniently.
+> To manage the application routing system.
 
 #### Socket.io
 
