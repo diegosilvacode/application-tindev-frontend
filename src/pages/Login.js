@@ -12,7 +12,7 @@ export default function Login({ history }) {
     event.preventDefault();
 
     const response = await api.post('/developers', {
-      username,
+      username
     });
 
     const { _id } = response.data;
@@ -20,13 +20,12 @@ export default function Login({ history }) {
     history.push(`/developer/${_id}`);
   }
 
-
   return (
     <div className="login-container">
       <form onSubmit={handleSubmit}>
         <img src={logo} alt="tindev"></img>
         <input
-          placeholder="insira seu username no Github"
+          placeholder="insira seu username do Github"
           value={username}
           onChange={event => setUsername(event.target.value)}
         />
