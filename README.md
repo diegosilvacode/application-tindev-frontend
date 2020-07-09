@@ -1,14 +1,14 @@
-# codefolio | TINDEV-FRONTEND
+# application | TINDEV - FRONTEND
 
 ![login](./public/codefolio-tindev-demo.png)
 
 ## About This Project
 
-This project contains the entire frontend of the **[codefolio-tindev-frontend](https://github.com/coderamos/codefolio-tindev-frontend)** application. Match other developers.
+This project contains the entire frontend of the **[application-tindev-frontend](https://github.com/coderamos/application-tindev-frontend)** application. Match other developers.
 
 This project was create with [Create React App](https://facebook.github.io/create-react-app/). You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started). To learn React, check out the [React documentation](https://reactjs.org/).
 
-To know the **backend** of this application, visit [codefolio-tindev-backend](https://github.com/coderamos/codefolio-tindev-backend).
+To know the **backend** of this application, visit [application-tindev-backend](https://github.com/coderamos/application-tindev-backend).
 
 ## Avaliable Scripts
 
@@ -23,7 +23,7 @@ yarn install
 and
 
 ```
-yarn dev
+yarn start
 ```
 
 Learn how to install `yarn` through the [official documentation](https://yarnpkg.com/pt-BR/docs/install).
